@@ -7,7 +7,7 @@ function Trivia(props) {
   useEffect(() => {
     const timeOutId = setTimeout(() => {
       if (!isNaN(parseInt(query))) {
-        fetch(`http://numbersapi.com/${query}`)
+        fetch(`https://cors-anywhere.herokuapp.com/http://numbersapi.com/${query}`)
           .then((value) => value.text())
           .then((value) => setDisplayMessage(value));
       } else if (query === "") {
