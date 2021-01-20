@@ -6,7 +6,7 @@ function About() {
       <strong>APIs used for developing the web app:</strong>
       <ul>
         <li>
-          <a href="https://numbersapi.com">Numbersapi</a>
+          <a href="http://numbersapi.com">Numbersapi</a>
         </li>
         <li>
           <a href="https://newton.now.sh/">newton</a>
